@@ -59,10 +59,153 @@ AURA successfully demonstrates the capability to significantly reduce false posi
 
 ---
 
-## Steps to Implement 
+# Steps to Implement 
 
-### 1. Clone to Repository
+
+
+---
+
+## 📌 Implementation & Utilization Guide for AURA_AI
+
+**Repository:**  
+```bash
+git clone https://github.com/pvjambur/AURA_AI
 ```
-git clone
+
+---
+
+## 📁 Project Structure (After Cloning):
+
 ```
+AURA_AI
+├── admin
+├── adminbackend
+├── Backend
+│   ├── auraai
+│   └── backend
+├── hackthon
+└── Manish_exam
+```
+
+---
+
+## 🚀 Installation Steps:
+
+1. **Navigate to each folder and subfolder**:
+   ```bash
+   cd admin
+   npm install
+   
+   cd ../adminbackend
+   npm install
+   
+   cd ../Backend/auraai
+   npm install
+   
+   cd ../backend
+   npm install
+   
+   cd ../../hackthon
+   npm install
+   
+   cd ../Manish_exam
+   npm install
+   ```
+
+2. **Starting Development Servers**:
+
+- Run `npm run dev` in the following directories:
+  ```bash
+  admin
+  adminbackend
+  Backend/auraai
+  Backend/backend
+  hackthon
+  ```
+
+- Run `npm start` specifically in:
+  ```bash
+  Manish_exam
+  ```
+
+---
+
+## 🖥️ Using the Application UI:
+
+- After servers are running, open the frontend UI (`Manish_exam`) in a web browser:
+  ```
+  http://localhost:3000
+  ```
+
+- Use the provided UI for interactive quizzes with multilingual support, speech synthesis, and real-time risk assessments.
+
+---
+
+## 📊 Demo & Supporting Resources:
+
+- **Demo Video**: Provided showcasing AURA's real-time monitoring, dynamic risk scoring, and final reporting capabilities.
+- **Reporting**: Automatic PDF and JSON session reports are generated upon quiz completion, including detailed analytics:
+  - Risk scoring trends (Line Chart)
+  - Risk breakdown by type (Radar Chart)
+  - Overall risk distribution (Pie Chart)
+
+---
+
+## 🔄 Flowchart of AURA Implementation:
+
+```plaintext
+User Starts Exam
+       │
+       ▼
+React Frontend (Manish_exam)
+│─ Session Initialized
+│─ User Behavior Tracking
+│─ Real-time Alerts & Warnings
+       │
+       ▼
+Backend (MERN, Flask, FastAPI)
+│─ Event Monitoring (Mouse, Keyboard, IP Check)
+│─ CrewAI & LangChain (Agent-based Analysis)
+│─ Dynamic Risk Scoring
+       │
+       ▼
+n8n Workflow Automation
+│─ Automated Actions (Warnings, Lockouts)
+│─ Data Processing & Storage (MongoDB, Redis)
+       │
+       ▼
+Session Completion
+│─ JSON Session Logs
+│─ PDF Report Generation (jsPDF/FPDF)
+│─ Risk Analytics (Chart.js, matplotlib)
+       │
+       ▼
+Final Review & Feedback
+```
+
+---
+
+## 🛠️ Tech Stack Summary:
+
+- **Frontend:** React.js, Tailwind CSS
+- **Backend:** MERN (MongoDB, Express.js, React, Node.js), Flask, FastAPI
+- **AI Integration:** CrewAI, LangChain
+- **Workflow Automation:** n8n
+- **Deployment & Infrastructure:** Docker, Kubernetes, AWS/GCP/Azure
+- **Security & Authentication:** JWT, OAuth
+- **Reporting & Visualization:** jsPDF, Chart.js, matplotlib
+- **Monitoring & Caching:** Redis
+- **CI/CD:** GitHub Actions
+
+---
+
+## 🎯 Key Use Cases:
+
+- University Exams & Professional Certifications
+- Corporate & Remote Assessments
+- Large-scale Competitive Exams
+- Privacy-sensitive Testing Environments
+
+---
+
 
