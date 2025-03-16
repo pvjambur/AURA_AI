@@ -144,6 +144,10 @@ AURA_AI
 ## 📊 Demo & Supporting Resources:
 
 - **Demo Video**: Provided showcasing AURA's real-time monitoring, dynamic risk scoring, and final reporting capabilities.
+
+[![AURA Demo Video](https://img.youtube.com/vi/TZFipZdc190/0.jpg)](https://youtu.be/TZFipZdc190)
+
+
 - **Reporting**: Automatic PDF and JSON session reports are generated upon quiz completion, including detailed analytics:
   - Risk scoring trends (Line Chart)
   - Risk breakdown by type (Radar Chart)
@@ -183,6 +187,9 @@ Session Completion
 Final Review & Feedback
 ```
 
+![Screenshot 2025-03-15 152431](https://github.com/user-attachments/assets/fc4681de-5eee-4580-80b7-746a7ddf6b31)
+
+
 ---
 
 ## 🛠️ Tech Stack Summary:
@@ -197,15 +204,75 @@ Final Review & Feedback
 - **Monitoring & Caching:** Redis
 - **CI/CD:** GitHub Actions
 
----
+![image](https://github.com/user-attachments/assets/62214178-f0ca-431f-bf4c-47c0a6914164)
 
-## 🎯 Key Use Cases:
-
-- University Exams & Professional Certifications
-- Corporate & Remote Assessments
-- Large-scale Competitive Exams
-- Privacy-sensitive Testing Environments
 
 ---
+
+## 🎬 Demo Video:
+**Watch the detailed project demonstration here:** [AURA Demo Video](https://youtu.be/TZFipZdc190)  
+The video highlights key functionalities, including session initialization, real-time anomaly detection, risk scoring, reporting capabilities, and user interactions.
+
+---
+
+## 📊 Flowchart and Visual Descriptions:
+
+### 1\. Tech Flowchart:
+- **Description:**  
+  Illustrates AURA's complete technical workflow, clearly defining interactions between frontend (React UI), backend (MERN stack, Flask, FastAPI APIs), AI modules (CrewAI, LangChain), workflow automation (n8n), data management (MongoDB, Redis), and deployment environments (Docker, Kubernetes, AWS/Azure/GCP). It visually represents the seamless integration and continuous data flow among these components.
+![Screenshot 2025-03-15 152431](https://github.com/user-attachments/assets/fc4681de-5eee-4580-80b7-746a7ddf6b31)
+---
+
+### 2\. Initial Prototype:
+- **Description:**  
+  Showcases the early-stage UI and backend integration of the AURA system. It demonstrates basic user interactions, preliminary anomaly detection, initial risk scoring features, and the initial data logging process. This visual helps in comparing improvements from the prototype phase to the final deployment.
+
+![image](https://github.com/user-attachments/assets/13dbbe44-fa99-4c31-b60f-24cf630a10ad)
+
+---
+
+### 3\. N8N Langraph Workflow:
+- **Description:**  
+  Provides a detailed visualization of workflow automation designed using n8n and LangChain (Langraph). It clearly displays how real-time user data, anomaly detection events, and dynamic risk scoring triggers are managed, highlighting automated responses (warnings, lockouts), and seamless communication between AI agents and backend services.
+
+![0-4DYT-RlzGMiJSAQo](https://github.com/user-attachments/assets/e08cc832-327e-4d25-958c-c55f3c592f6a)
+
+
+---
+
+### 4\. Pricing:
+- **Description:**  
+  Offers a clear breakdown of AURA’s pricing structure, including different service tiers, usage-based costs, scalability options, and added features per tier. This chart helps educational institutions and corporate clients understand cost efficiency and customization options available, facilitating informed decision-making.
+
+![image](https://github.com/user-attachments/assets/58632b2f-519e-4924-bb8f-e405ddfc4145)
+
+![image](https://github.com/user-attachments/assets/86ace3f2-1adb-49f0-9537-57a8b2f02476)
+
+
+
+---
+
+### 5\. Example PDF Generated (Version 1):
+- **Description:**  
+  Demonstrates a comprehensive, auto-generated session report in PDF format upon exam completion. This version includes session duration, answers summary, keyboard and mouse event counts, anomaly detection occurrences, dynamic risk scoring, and insightful graphical analytics (line, pie, radar charts).
+
+
+![image](https://github.com/user-attachments/assets/f1f6b227-1adc-4b73-80f6-3d8c7e2c32c5)
+
+
+
+
+---
+
+### 6\. Example PDF Generated (Version 2):
+- **Description:**  
+  Another variant of the automatically generated PDF report, this example emphasizes deeper analytical insights, providing a granular breakdown of detected risks, timestamps of suspicious activities, comparative session analyses, and user behavioral trends across multiple sessions. Ideal for administrative reviews and auditing purposes.
+
+![image](https://github.com/user-attachments/assets/6846d35b-5058-4a7f-a804-3029adc02b87)
+
+
+---
+
+
 
 
